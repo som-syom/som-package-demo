@@ -1,0 +1,32 @@
+{
+  "name": "som-package-demo",
+  "version": "1.0.0",
+  "description": "A demo package for Total TypeScript",
+  "keywords": [
+    "demo",
+    "typescript"
+  ],
+  "homepage": "https://github.com/som-syom/som-package-demo",
+  "bugs": {
+    "url": "https://github.com/som-syom/som-package-demo/issues"
+  },
+  "author": "som-syom",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/som-syom/som-package-demo.git"
+  },
+  "files": [
+    "dist"
+  ],
+  "type": "module",
+  "license": "MIT",
+  "devDependencies": {
+    "prettier": "^3.3.3",
+    "typescript": "^5.6.3"
+  },
+  "scripts": {
+    "build": "tsc",
+    "ci": "npm run build",
+    "format": "prettier --write ."
+  }
+}
